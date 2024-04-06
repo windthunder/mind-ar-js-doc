@@ -166,7 +166,7 @@ When you want to do interaction with the content, one thing you likely want to d
 First, you need to include the following `cursor` and `raycaster` in the `<a-camera>` element like this:
 
 ```
-<a-camera position="0 0 0" look-controls="enabled: false" cursor="fuse: false; rayOrigin: mouse;" raycaster="far: ${customFields.libVersion}; objects: .clickable"></a-camera>
+<a-camera position="0 0 0" look-controls="enabled: false" cursor="fuse: false; rayOrigin: mouse;" raycaster="far: 10000; objects: .clickable"></a-camera>
 
 ``` 
 
